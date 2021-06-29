@@ -1,0 +1,118 @@
+1. What is CSS?
+Ans. CSS stands for Cascading Style Sheet. It is a popular styling language which is used with HTML to design websites.
+
+2. How can you integrate CSS on a web page?
+Ans. There are three methods to integrate CSS on web pages.
+      Inline method - It is used to insert style sheets in HTML document
+      Embedded/Internal method - It is used to add a unique style to a single document
+      Linked/Imported/External method - It is used when you want to make changes on multiple pages.
+      
+3.  What is the use of CSS Opacity?
+Ans. The CSS opacity property is used to specify the transparency of an element. In simple word, you can say that it specifies the clarity of the image.
+        In technical terms, Opacity is defined as the degree to which light is allowed to travel through an object.
+        
+4. Name the property for controlling the image repetition of the background.
+Ans. The background-repeat property repeats the background image horizontally and vertically. Some images are repeated only horizontally or vertically.
+
+5. Name the property for controlling the image scroll in the background.
+Ans. The background-attachment property is used to specify if the background image is fixed or scroll with the rest of the page in the browser window. 
+        If you set fixed the background image, then the image not move during scrolling in the browser. Let's take an example with the fixed background image.
+        
+6. What is RWD?
+Ans. RWD stands for Responsive Web Design. This technique is used to display the designed page perfectly on every screen size and device,
+        for example, mobile, tablet, desktop and laptop. You don't need to create a different page for each device.
+        
+7. What is the purpose of the z-index and how is it used?
+Ans. The z-index helps to specify the stack order of positioned elements that may overlap one another.
+        The z-index default value is zero and can take on either a positive or negative number.
+        
+8. What are pseudo-elements in CSS?
+Ans. A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s). They can be used for decoration (:first-line, :first-letter)
+        or adding elements to the markup (combined with content: ...) without having to modify the markup (:before, :after).
+        
+9. What is the float property used for in CSS?
+Ans. The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. 
+        The element is removed from the normal flow of the page, though it still remains a part of the flow (in contrast to absolute positioning).
+        
+10. What is the overflow property in CSS used for?
+Ans. The overflow property specifies what should happen if content overflows an element’s box. 
+        This property specifies whether to clip content or to add scrollbars when an element’s content is too big to fit in a specified area. 
+        
+11. What is the property that is used for controlling image-scroll?
+Ans. The background-attachment property sets whether a background image scrolls with the rest of the page, or is fixed.
+
+12. What is the use of box-shadow in CSS?
+Ans. The box-shadow CSS property adds shadow effects around an element’s frame. You can set multiple effects separated by commas. 
+        A box-shadow is described by X and Y offsets relative to the element, color, blur and spread radii.
+        
+13. What are contextual selectors?
+Ans. Contextual selectors in CSS allow you to specify different styles for different parts of your document. You can assign styles directly to specific HTML tags, or, you could create independent classes and assign them to tags in the HTML. 
+        Either approach lets you mix and match styles.
+        
+14. How would you style an image or element to have rounded corners?
+Ans. Use the border-radius property to add rounded corners to an image. 50% will make the image circular.
+
+15. What is CSS flexbox?
+Ans. The flexbox layout officially called CSS flexible box layout module is a new layout module in CSS3. It is made to improve the items align, directions and order in the container even when they are with dynamic, or even unknown size. 
+        The prime characteristic of the flex container is the ability to modify the width or height of its children to fill the available space in the best possible way on different screen sizes.
+        
+16. What are Vendor-Prefixes? 
+Ans. Browser vendors sometimes add prefixes to experimental or nonstandard CSS properties and JavaScript APIs, so developers can experiment with new ideas while—in theory—preventing their experiments from being relied upon and then breaking web developers’ code during the standardization process. 
+        Developers should wait to include the unprefixed property until browser behaviour is standardized.
+        
+17. How will you add border images to an HTML element?
+
+Ans: We can set the image to be used as the border-image alongside an element by using the property of CSS “border-image”.
+
+18. What are gradients in CSS?
+
+Ans: It is a property of CSS which allows you to display a smooth transformation between two or more than two specified colors.
+        There are two types of gradients that are present in CSS. They are:
+
+        1.Linear Gradient
+        2.Radial Gradient
+        
+19. What is the use of the Box Model in CSS?
+
+Ans: In CSS, the box model is a box that binds all the HTML elements and it includes features like margins, border, padding, and the actual content.
+        By using a box model we will get the authority to add the borders all around the elements and we can also define the space between the elements.
+        
+20. What is a CSS pseudo-class?
+
+Ans: It is a class that is used to define a special state of an HTML element.
+        This class can be used by styling an element when a user snooped over it and also it can style an HTML element when it gets the focus.
+        
+21. What are navigation bars in CSS?
+
+Ans: By using navigation bars we can make an ordinary HTML page into a user-specific and more dynamic web page. 
+        Basically, it is a list of links, hence use of <ul> and <li> elements makes the perfect sense.
+        
+22. Define ‘important’ declarations used in CSS.
+Ans: Important declarations are defined as that declaration which is having more importance than the normal declaration.
+        While executing, these declarations override the declaration which is having less importance.
+        
+23. How is the concept of inheritance applied in CSS?
+Ans: Inheritance is a concept in which the child class will inherit the properties of its parent class. It is a concept which is been used in many languages and is the easy way of defining the same property again.
+        It is used in CSS to define the hierarchy from the top level to the bottom level. Inherited properties can be overridden by the children’s class if the child uses the same name.
+        
+24.  What is meant by CSS frameworks?
+Ans: CSS frameworks are pre-planned libraries, allowing a more convenient web page styling which is also compliant with standards.
+
+25. What are the media types allowed by CSS?
+Ans: CSS allows different media types such as speech, audio, visual and tactile media, paged or continuous media, bitmap or grid media, and even interactive media.
+
+26. What is the ruleset?
+Ans: Rulesets can be used to identify the selectors attached to one another.
+          It consists of two different parts- selector and declaration.
+          
+27. What is a declaration block?
+Ans: It is basically a catalog of directions comprising the property, followed by a colon, and finally the value enclosed within braces.
+
+28.  How does importing a file make it easy to insert?
+Ans: Importing of files helps in integrating external sheets that can be inserted in multiple sheets. There can be different sheets and styles for different functions.
+
+29.  Is it possible to add multiple declarations in CSS?
+Ans: Yes, we can do this with the help of semicolons.
+
+30. What is Tweening?
+Ans: It is the process by which intermediate frames between two pictures are created in order to find the appearance of the first image developing into the second.
